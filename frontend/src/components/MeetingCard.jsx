@@ -1,0 +1,2 @@
+import React from 'react'; import {Link} from 'react-router-dom';
+export default function MeetingCard({m}){return <Link className="meeting-card" to={`/meetings/${m._id}`}><div className="meeting-icon">◷</div><div className="meeting-main"><h3>{m.title}</h3><p>{new Date(m.date).toLocaleDateString()} · {m.duration} min</p><div className="people">{m.participants?.map((p,i)=><span key={i}>{p}</span>)}</div></div><span className="arrow">›</span></Link>}

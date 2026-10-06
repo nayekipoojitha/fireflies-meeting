@@ -1,0 +1,1 @@
+{"name":"fireflies-clone-backend","version":"1.0.0","scripts":{"dev":"nodemon server.js","start":"node server.js","seed":"node seed.js"},"dependencies":{"cors":"latest","dotenv":"latest","express":"latest","mongoose":"latest","groq-sdk":"latest"},"devDependencies":{"nodemon":"latest"}}

@@ -1,0 +1,24 @@
+FIREFLIES CLONE - START HERE
+
+1) Start MongoDB.
+2) Open Terminal 1:
+   cd backend
+   npm install
+   npm run seed
+   npm run dev
+
+3) Open Terminal 2:
+   cd frontend
+   npm install
+   npm run dev
+
+4) Open http://localhost:5173
+
+Backend: http://localhost:5000
+Health check: http://localhost:5000/api/health
+
+IMPORTANT:
+- backend/.env is intentionally NOT included in this ZIP.
+- Copy backend/.env.example to backend/.env and set MONGO_URI.
+- GROQ_API_KEY is optional. The seeded demo works without it.
+- Do not upload node_modules to GitHub.
